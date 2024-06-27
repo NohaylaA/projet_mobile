@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        app:tint="@color/app_color"
+        android:onClick="profile"
+        android:title="@string/profile"/>
+    <item
+        android:id="@+id/action_deconnecter"
+        app:tint="@color/app_color"
+        android:onClick="deconnecter"
+        android:title="@string/deconnecter"/>
+</menu>
